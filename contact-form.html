@@ -4,20 +4,34 @@
         <title>Contact-Form</title>
     </head>
 <body>
-<fieldset style="width:30px>
+    <form action="">
+<fieldset style="width:30px">
     <legend>Contact Form</legend>
 
 <label>Email</label><br>
-<input type="text" name="email"><br/>
+<input type="email" name="email" ><br/>
 <label>Mobile</label><br/>
-<input type="text" name="mobile"><br>
+<input type="text" name="mobile" required="required"><br>
 <label>Telephone</label><br>
-<input type="text" name="Telphone">
+<input type="text" name="Telphone" required="required">
+<label for="date">Departure Date</label><br>
+<input type="date" name="depart" required="required">
+<label for="date">Website</label><br>
+<input type="url" name="Website" required="required">
+
+<br>
+
+<br>
+<input type="submit" value="Submit">
 
 
 
 </fieldset>
+    </form>
 
+<form>
+<input type="search"  name="search"> <input type="submit" value="search" >
+</form>
 
 
 
